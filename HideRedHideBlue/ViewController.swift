@@ -25,11 +25,9 @@ class ViewController: UIViewController {
 
     @IBAction func hideBlue(sender: AnyObject) {
         imageRed.hidden = true
-        //imageBlue.hidden = true
     }
 
     @IBAction func hideRed(sender: AnyObject) {
-        //imageRed.hidden = true
         imageBlue.hidden = true
     }
     
